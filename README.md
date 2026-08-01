@@ -21,7 +21,7 @@ This project demonstrates an end-to-end Azure Data Engineering pipeline built us
 
 ## 📊 Architecture
 
-```
+```text
 AdventureWorks Dataset
         │
         ▼
@@ -48,68 +48,105 @@ Power BI Dashboard
 
 * Data ingestion using Azure Data Factory.
 * Raw data stored in the Bronze layer.
-* Data cleaning and transformation using PySpark in Databricks.
-* Business-ready tables created in the Gold layer.
-* Interactive dashboards created in Power BI.
+* Data cleaning and transformation using PySpark in Azure Databricks.
+* Business-ready Gold tables created for analytics.
+* Interactive dashboards developed in Power BI for business insights.
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 AdventureWorks-Azure-Data-Engineering/
 │
 ├── README.md
 ├── Architecture/
 ├── Databricks_Notebooks/
 ├── PowerBI_Dashboard/
-└── Dashboard_Screenshots/
+├── Dashboard_Screenshots/
+└── Dataset/
 ```
 
 ---
 
 ## 📈 Power BI Dashboard
 
-### Page 1 – Sales Overview
+### 📄 Page 1 – Sales Overview Dashboard
+
+**KPI Cards**
 
 * Total Sales
-* Total Quantity
-* Total Profit
 * Total Cost
-* Sales by Category
-* Sales by Region
-* Sales by Product
-* Sales Trend by Order Date
-* Region, Category, and Order Date slicers
+* Total Profit
+* Profit Margin
 
-### Page 2 – Product Analysis
+**Visualizations**
 
-* Sales by Brand
-* Sales by Category
-* Sales by Product
-* Product Details Table
+* Sales by Category (Clustered Column Chart)
+* Sales by Region (Bar Chart)
+* Sales Trend by Order Date (Line Chart)
+* Sales by Brand (Pie/Donut Chart)
+
+**Interactive Slicers**
+
+* Order Date
+* Region
+* Category
+
+---
+
+### 📄 Page 2 – Sales Performance Dashboard
+
+**Visualizations**
+
+* Sales vs Profit (Scatter Chart)
+* Sales by Salesperson (Clustered Column Chart)
+* Sales vs Target (Line & Clustered Column Chart)
+* Sales Details Matrix (Region, Product, Sales, Cost, Profit)
+
+**Interactive Features**
+
+* Cross-filtering between visuals
+* Dynamic slicers for Region, Category, and Order Date
+* Business performance analysis with interactive filtering
 
 ---
 
 ## 💡 Skills Demonstrated
 
-* Data Ingestion
-* Data Transformation
+* Azure Data Factory Pipeline Development
+* Azure Data Lake Storage (ADLS Gen2)
+* PySpark Data Transformation
+* Delta Lake Architecture
 * ETL Pipeline Development
-* Azure Data Lake Storage
-* PySpark Programming
-* Delta Lake
 * Data Modeling
+* DAX Measures
+* Power Query
 * Power BI Dashboard Development
-* Data Visualization
+* Business Intelligence & Data Visualization
+* SQL
+* Git & GitHub
 
 ---
 
-## 📷 Screenshots
+## 📷 Project Screenshots
 
-* Architecture Diagram
+* Azure Data Engineering Architecture
+* Bronze, Silver & Gold Pipeline
 * Power BI Dashboard – Page 1
 * Power BI Dashboard – Page 2
+* Data Model & Relationships
+
+---
+
+## 🎯 Key Business Insights
+
+* Analyzed sales performance across different product categories.
+* Compared regional sales performance.
+* Monitored sales trends over time.
+* Evaluated salesperson performance against targets.
+* Measured profitability using Sales, Cost, Profit, and Profit Margin.
+* Enabled interactive analysis using slicers and cross-filtering.
 
 ---
 
@@ -118,3 +155,5 @@ AdventureWorks-Azure-Data-Engineering/
 **Purvam Nayak**
 
 Aspiring Azure Data Engineer
+
+📌 Passionate about Azure Data Engineering, PySpark, Power BI, SQL, and building scalable data pipelines.
